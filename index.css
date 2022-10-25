@@ -1,23 +1,51 @@
 body{
     margin: 0;
+    color: #4a1f31;
+    font-family: 'Montserrat', sans-serif;
+    background-color: #FFFCF9;
 }
+/*red highlight if not filled properly*/
 .login-form{
     display: flex;
     flex-direction: column;
     align-items: center;
+    margin: 2em;
+    margin-top: 0;
+    background-color: #fff;
+    box-shadow: 0 2px 1px rgba(0,0,0,0.09), 
+    0 4px 2px rgba(0,0,0,0.09), 
+    0 8px 4px rgba(0,0,0,0.09), 
+    0 16px 8px rgba(0,0,0,0.09),
+    0 32px 16px rgba(0,0,0,0.09);
 }
 .text-center{
     text-align: center;
     margin-top: 1em;
+    font-weight: 600;
+    font-size: 2em;
 }
 .input-group{
-    margin-top: .5em;
+    margin-top: 1em;
+}
+.button:hover, .button:focus{
+    transform: scale(1.1, 1.1)  ;
 }
 .button{
     padding: .7em 2.5em;
     border-radius: .5em;
     border: none;
-    background-color: blanchedalmond;
+    background-color: #4a1f31;
     font-weight: bold;
+    color: #FFFCF9;
     letter-spacing: 1px;
+    font-family: 'Montserrat', sans-serif;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    cursor: pointer;
+}
+.label{
+    margin-right: .2em;
+}
+.password{
+    margin-left: .4em;
 }

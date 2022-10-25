@@ -17,7 +17,9 @@ class Login{
                 }
             })
             if (error === 0){
-                console.log("success")
+                //login api
+                localStorage.setItem("auth", 1)
+                
                 this.form.submit()
             }
         })
