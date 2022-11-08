@@ -70,3 +70,18 @@ body{
 .password{
     margin-left: .4em;
 }
+.error-message {
+    font-size: 0.85rem;
+    color: red;
+    display:block;
+  }
+  .input.input-error {
+    border: 1px solid red;
+  }
+  
+  .input.input-error:focus {
+    border: 1px solid red;
+  }
+  /*.display-left{
+    
+  }*/

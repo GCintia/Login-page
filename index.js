@@ -33,6 +33,13 @@ class Login{
                 cannot be blank`,
                 "error"
             )
+            //BTN TRANSFORM (gsap or transform/transition with class)
+            //const Btn = document.querySelector(".button")
+            //Btn.addEventListener(
+               // "mouseenter", (e) =>{
+                  //  Btn.classList.add("display-left")
+               // }
+            )
             return false
         }else{
             if(field.type === "password"){
@@ -67,6 +74,7 @@ class Login{
         if (status === "error"){
             errorMessage.innerText = message
             field.classList.add("input-error")
+            
         }
     }
 }
